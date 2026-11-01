@@ -1,0 +1,58 @@
+Experiment 003 -- Trained for the full 300M Tokens
+    
+    Research Question:
+        - Does training the model longer improve generation quality?
+
+    1. Basline Configurations
+        - Architecture -> Decoder only Transformer
+        - Datset -> Tiny Stories
+        - Training Tokens -> 300M
+        - Embedding Dimesnion -> 384
+        - Layers -> 6
+        - Heads -> 6
+        - Block size -> 256
+        - Dropout Rate -> 0.05
+        - Vocabulary -> 50304
+        - Peak Lr -> 3e-4
+        - Lr scheduler -> Warmup + cosine decay
+        - No gradient clipping
+
+        - Tokenizer -> Tiktoken GPT2
+        - Batch Size -> 32
+        - Block Size -> 256
+        - Embedding weights are tied
+
+        - Total parameters: 30,062,592
+        - Trainable parameters: 30,062,592
+
+
+    # Training Results:
+        - Training Steps: 36,622
+        - Estimated tokens proccessed : 300M / 300M
+        - Final training loss: 1.5796
+        - Final validation loss: : 1.5912
+        - Training Time: 5h (Estimated)
+
+
+    # Comparison with Experiment 002:
+        - Validation loss improved by 0.6495
+        - Training loss improved by 0.6425
+        - No visible evidence of overfitting
+        - Training remained similar
+        - Training Loss reduced over time due to longer training
+
+
+    # Generation observation
+        - Improved grammatical fluency comparaed with previous version
+        - Longer text still remain readbale
+        - The character still is inconsitent and they often switch
+        - Long story genearation still remains the biggest limitation
+
+    # Current Conclusions
+        - The corrected configuration produces slightly better validation results
+        - It also appears to produce more fluent long-form samples
+
+        - However, the difference in genearation quality has not yet been established through a control evaluation
+
+
+        

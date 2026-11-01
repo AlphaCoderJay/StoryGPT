@@ -1,0 +1,87 @@
+# Aggreagte results
+    - 100 Tokens -> 0.64
+    - 200 tokens -> 0.67
+    - 300 tokens -> 0.60
+
+    - The 200-token generations perform best
+
+    - This suggests that the model can maintain coherent passages for longer
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Peformace by prompt   
+    - Prompt 1 -> 0.64
+    - Prompt 2 -> 0.56
+    - Prompt 3 -> 0.70
+    - Prompt 4 -> 0.76
+    - Prompt 5 -> 0.58
+    - Prompt 6 -> 0.72
+    - Prompt 7 -> 0.66
+    - Prompt 8 -> 0.46
+
+- Prompt 4, Prompt 6 and Prompt 3 are the strongest prompts
+- Prompt 8 still remains the weakest as seen with the E001 and E002
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Peformace across the six criteria
+
+Criterion	             Average score
+Narrative coherence	        0.52
+Character consistency	    0.70
+Semantic consistency	    0.58
+Grammar and fluency	        0.85
+Story progression	        0.53
+Prompt adherence	        0.81
+
+- Grammar and Fluency is E003's strongest capabiity
+- The E003 is now producing more readable seneteces. The broken sentence that are seen in E001 and E002 are less seen here
+
+Character consistency: 0.70
+
+This has improved considerably in my assessment.
+
+There are still mistakes, such as Max being described as a dog despite being introduced as a boy, and the occasional switching between characters.
+
+However, many generations now maintain their primary characters throughout a reasonable passage.
+
+Semantic consistency: 0.58
+
+Still a significant weakness.
+
+The model can construct sensible sentences, but sometimes the relationships between objects, characters and actions don't make sense.
+
+Narrative coherence and progression: approximately 0.53
+
+This is where the next improvements need to happen.
+
+Your model can create a beginning, introduce an event and sometimes reach a conclusion. What it struggles with is ensuring that those events connect meaningfully.
+
+Prompt adherence: 0.81
+
+There is a notable distinction between prompts here.
+
+Max, Lucy and the mysterious box generally receive relevant continuations.
+
+Amy's artistic ambitions are frequently abandoned. The model still has difficulty preserving a specific narrative objective.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Experiment 003
+Best so far
+
+0.64 / 1.00
+72 generations · 8 prompts · 3 lengths · 3 samples per combination
+
+Strongest capabilities
+- Grammar and fluency: 0.85
+- Character consistency: 0.70
+- Prompt adherence: 0.81
+Weakest capabilities
+- Narrative coherence: 0.52
+- Story progression: 0.53
+- Semantic consistency: 0.58
+Best prompt: P4 — Mysterious box (0.76).
+
+Worst prompt: P8 — Artist (0.46).
+
+Best individual generation: P4, 100 tokens, Sample C (0.91).
+
+Primary remaining weakness: Maintaining a meaningful narrative over longer sequences.
