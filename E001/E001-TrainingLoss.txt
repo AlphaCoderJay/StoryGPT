@@ -1,0 +1,125 @@
+- Training Results
+    Step: 0: Train Loss: 10.9879: Val Loss: 10.9879: Learning rate: 1.5000e-06
+
+    Step: 100: Train Loss: 6.1494: Val Loss: 6.1455: Learning rate: 1.5150e-04
+    Step: 200: Train Loss: 5.8713: Val Loss: 5.8685: Learning rate: 3.0000e-04
+    Step: 300: Train Loss: 5.8591: Val Loss: 5.8523: Learning rate: 2.9993e-04
+    Step: 400: Train Loss: 5.8554: Val Loss: 5.8579: Learning rate: 2.9972e-04
+    Step: 500: Train Loss: 5.8044: Val Loss: 5.8111: Learning rate: 2.9938e-04
+    Step: 600: Train Loss: 5.6355: Val Loss: 5.6421: Learning rate: 2.9889e-04
+    Step: 700: Train Loss: 5.5324: Val Loss: 5.5258: Learning rate: 2.9827e-04
+    Step: 800: Train Loss: 5.4628: Val Loss: 5.4640: Learning rate: 2.9751e-04
+    Step: 900: Train Loss: 5.3695: Val Loss: 5.3712: Learning rate: 2.9662e-04
+    Step: 1000: Train Loss: 5.1792: Val Loss: 5.1883: Learning rate: 2.9558e-04
+
+    Uploaded latest_checkpoint.pt
+    Step: 1100: Train Loss: 4.9321: Val Loss: 4.9183: Learning rate: 2.9442e-04
+    Step: 1200: Train Loss: 4.6382: Val Loss: 4.6238: Learning rate: 2.9312e-04
+    Step: 1300: Train Loss: 4.4071: Val Loss: 4.4077: Learning rate: 2.9169e-04
+    Step: 1400: Train Loss: 4.1942: Val Loss: 4.1783: Learning rate: 2.9013e-04
+    Step: 1500: Train Loss: 4.0185: Val Loss: 4.0151: Learning rate: 2.8845e-04
+    Step: 1600: Train Loss: 3.8868: Val Loss: 3.8835: Learning rate: 2.8663e-04
+    Step: 1700: Train Loss: 3.7602: Val Loss: 3.7510: Learning rate: 2.8469e-04
+    Step: 1800: Train Loss: 3.6574: Val Loss: 3.6512: Learning rate: 2.8263e-04
+    Step: 1900: Train Loss: 3.5611: Val Loss: 3.5589: Learning rate: 2.8044e-04
+    Step: 2000: Train Loss: 3.4886: Val Loss: 3.4896: Learning rate: 2.7814e-04
+
+    Uploaded latest_checkpoint.pt
+    Step: 2100: Train Loss: 3.4033: Val Loss: 3.4204: Learning rate: 2.7572e-04
+    Step: 2200: Train Loss: 3.3451: Val Loss: 3.3623: Learning rate: 2.7319e-04
+    Step: 2300: Train Loss: 3.2998: Val Loss: 3.3056: Learning rate: 2.7055e-04
+    Step: 2400: Train Loss: 3.2365: Val Loss: 3.2348: Learning rate: 2.6780e-04
+    Step: 2500: Train Loss: 3.1932: Val Loss: 3.2143: Learning rate: 2.6494e-04
+    Step: 2600: Train Loss: 3.1581: Val Loss: 3.1479: Learning rate: 2.6198e-04
+    Step: 2700: Train Loss: 3.1110: Val Loss: 3.1141: Learning rate: 2.5892e-04
+    Step: 2800: Train Loss: 3.0768: Val Loss: 3.0683: Learning rate: 2.5576e-04
+    Step: 2900: Train Loss: 3.0450: Val Loss: 3.0376: Learning rate: 2.5251e-04
+    Step: 3000: Train Loss: 2.9938: Val Loss: 3.0082: Learning rate: 2.4917e-04
+
+    Uploaded latest_checkpoint.pt
+    Step: 3100: Train Loss: 2.9692: Val Loss: 2.9590: Learning rate: 2.4574e-04
+    Step: 3200: Train Loss: 2.9228: Val Loss: 2.9318: Learning rate: 2.4224e-04
+    Step: 3300: Train Loss: 2.9035: Val Loss: 2.9037: Learning rate: 2.3865e-04
+    Step: 3400: Train Loss: 2.8748: Val Loss: 2.8854: Learning rate: 2.3498e-04
+    Step: 3500: Train Loss: 2.8389: Val Loss: 2.8449: Learning rate: 2.3125e-04
+    Step: 3600: Train Loss: 2.8339: Val Loss: 2.8228: Learning rate: 2.2744e-04
+    Step: 3700: Train Loss: 2.7909: Val Loss: 2.7916: Learning rate: 2.2357e-04
+    Step: 3800: Train Loss: 2.7697: Val Loss: 2.7710: Learning rate: 2.1965e-04
+    Step: 3900: Train Loss: 2.7680: Val Loss: 2.7631: Learning rate: 2.1566e-04
+    Step: 4000: Train Loss: 2.7377: Val Loss: 2.7421: Learning rate: 2.1162e-04
+
+    Uploaded latest_checkpoint.pt
+    Step: 4100: Train Loss: 2.7102: Val Loss: 2.7131: Learning rate: 2.0754e-04
+    Step: 4200: Train Loss: 2.7015: Val Loss: 2.6979: Learning rate: 2.0341e-04
+    Step: 4300: Train Loss: 2.6821: Val Loss: 2.6796: Learning rate: 1.9924e-04
+    Step: 4400: Train Loss: 2.6633: Val Loss: 2.6701: Learning rate: 1.9504e-04
+    Step: 4500: Train Loss: 2.6421: Val Loss: 2.6455: Learning rate: 1.9081e-04
+    Step: 4600: Train Loss: 2.6147: Val Loss: 2.6214: Learning rate: 1.8655e-04
+    Step: 4700: Train Loss: 2.6020: Val Loss: 2.5969: Learning rate: 1.8226e-04
+    Step: 4800: Train Loss: 2.6059: Val Loss: 2.5915: Learning rate: 1.7796e-04
+    Step: 4900: Train Loss: 2.5849: Val Loss: 2.5908: Learning rate: 1.7365e-04
+    Step: 5000: Train Loss: 2.5676: Val Loss: 2.5649: Learning rate: 1.6933e-04
+
+    Uploaded latest_checkpoint.pt
+    Step: 5100: Train Loss: 2.5572: Val Loss: 2.5644: Learning rate: 1.6500e-04
+    Step: 5200: Train Loss: 2.5455: Val Loss: 2.5305: Learning rate: 1.6067e-04
+    Step: 5300: Train Loss: 2.5238: Val Loss: 2.5268: Learning rate: 1.5635e-04
+    Step: 5400: Train Loss: 2.5137: Val Loss: 2.5121: Learning rate: 1.5204e-04
+    Step: 5500: Train Loss: 2.5038: Val Loss: 2.5072: Learning rate: 1.4774e-04
+    Step: 5600: Train Loss: 2.4872: Val Loss: 2.4880: Learning rate: 1.4345e-04
+    Step: 5700: Train Loss: 2.4784: Val Loss: 2.4775: Learning rate: 1.3919e-04
+    Step: 5800: Train Loss: 2.4722: Val Loss: 2.4725: Learning rate: 1.3496e-04
+    Step: 5900: Train Loss: 2.4695: Val Loss: 2.4743: Learning rate: 1.3076e-04
+    Step: 6000: Train Loss: 2.4435: Val Loss: 2.4467: Learning rate: 1.2659e-04
+
+
+    Uploaded latest_checkpoint.pt
+    Step: 6100: Train Loss: 2.4343: Val Loss: 2.4485: Learning rate: 1.2246e-04
+    Step: 6200: Train Loss: 2.4173: Val Loss: 2.4270: Learning rate: 1.1838e-04
+    Step: 6300: Train Loss: 2.4279: Val Loss: 2.4411: Learning rate: 1.1434e-04
+    Step: 6400: Train Loss: 2.4045: Val Loss: 2.4205: Learning rate: 1.1035e-04
+    Step: 6500: Train Loss: 2.4064: Val Loss: 2.4069: Learning rate: 1.0643e-04
+    Step: 6600: Train Loss: 2.3886: Val Loss: 2.3916: Learning rate: 1.0256e-04
+    Step: 6700: Train Loss: 2.3956: Val Loss: 2.3976: Learning rate: 9.8753e-05
+    Step: 6800: Train Loss: 2.3740: Val Loss: 2.3836: Learning rate: 9.5017e-05
+    Step: 6900: Train Loss: 2.3695: Val Loss: 2.3766: Learning rate: 9.1353e-05
+    Step: 7000: Train Loss: 2.3685: Val Loss: 2.3754: Learning rate: 8.7764e-05
+
+    Uploaded latest_checkpoint.pt
+    Step: 7100: Train Loss: 2.3587: Val Loss: 2.3626: Learning rate: 8.4255e-05
+    Step: 7200: Train Loss: 2.3446: Val Loss: 2.3533: Learning rate: 8.0829e-05
+    Step: 7300: Train Loss: 2.3443: Val Loss: 2.3483: Learning rate: 7.7489e-05
+    Step: 7400: Train Loss: 2.3322: Val Loss: 2.3411: Learning rate: 7.4239e-05
+    Step: 7500: Train Loss: 2.3351: Val Loss: 2.3307: Learning rate: 7.1083e-05
+    Step: 7600: Train Loss: 2.3334: Val Loss: 2.3316: Learning rate: 6.8023e-05
+    Step: 7700: Train Loss: 2.3207: Val Loss: 2.3207: Learning rate: 6.5062e-05
+    Step: 7800: Train Loss: 2.3181: Val Loss: 2.3215: Learning rate: 6.2205e-05
+    Step: 7900: Train Loss: 2.3000: Val Loss: 2.3176: Learning rate: 5.9453e-05
+    Step: 8000: Train Loss: 2.3014: Val Loss: 2.3043: Learning rate: 5.6809e-05
+
+    Uploaded latest_checkpoint.pt
+    Step: 8100: Train Loss: 2.2971: Val Loss: 2.2935: Learning rate: 5.4277e-05
+    Step: 8200: Train Loss: 2.2998: Val Loss: 2.3162: Learning rate: 5.1858e-05
+    Step: 8300: Train Loss: 2.2797: Val Loss: 2.2968: Learning rate: 4.9556e-05
+    Step: 8400: Train Loss: 2.2946: Val Loss: 2.2936: Learning rate: 4.7372e-05
+    Step: 8500: Train Loss: 2.2921: Val Loss: 2.2807: Learning rate: 4.5309e-05
+    Step: 8600: Train Loss: 2.2802: Val Loss: 2.2911: Learning rate: 4.3369e-05
+    Step: 8700: Train Loss: 2.2829: Val Loss: 2.2866: Learning rate: 4.1554e-05
+    Step: 8800: Train Loss: 2.2802: Val Loss: 2.2805: Learning rate: 3.9866e-05
+    Step: 8900: Train Loss: 2.2697: Val Loss: 2.2766: Learning rate: 3.8307e-05
+    Step: 9000: Train Loss: 2.2701: Val Loss: 2.2711: Learning rate: 3.6877e-05
+
+    Uploaded latest_checkpoint.pt
+    Step: 9100: Train Loss: 2.2877: Val Loss: 2.2885: Learning rate: 3.5580e-05
+    Step: 9200: Train Loss: 2.2643: Val Loss: 2.2710: Learning rate: 3.4415e-05
+    Step: 9300: Train Loss: 2.2596: Val Loss: 2.2674: Learning rate: 3.3385e-05
+    Step: 9400: Train Loss: 2.2779: Val Loss: 2.2700: Learning rate: 3.2490e-05
+    Step: 9500: Train Loss: 2.2454: Val Loss: 2.2592: Learning rate: 3.1730e-05
+    Step: 9600: Train Loss: 2.2655: Val Loss: 2.2697: Learning rate: 3.1108e-05
+    Step: 9700: Train Loss: 2.2481: Val Loss: 2.2635: Learning rate: 3.0624e-05
+    Step: 9800: Train Loss: 2.2440: Val Loss: 2.2506: Learning rate: 3.0277e-05
+    Step: 9900: Train Loss: 2.2515: Val Loss: 2.2570: Learning rate: 3.0069e-05
+    Step: 9999: Train Loss: 2.2372: Val Loss: 2.2498: Learning rate: 3.0000e-05
+
+
+

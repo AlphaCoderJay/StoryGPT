@@ -1,0 +1,48 @@
+
+Experiment 001:
+
+    1. Basline Configurations
+        - Architecture -> Decoder only Transformer
+        - Datset -> Tiny Stories
+        - Training Tokens -> 300M
+        - Embedding Dimesnion -> 384
+        - Layers -> 6
+        - Heads -> 6
+        - Block size -> 512 - 256(mismatch)
+        - Dropout Rate -> 0.05
+        - Vocabulary -> 50304
+        - Peak Lr -> 3e-4
+        - Lr scheduler -> Warmup + cosine decay
+        - No gradient clipping
+
+        - Tokenizer -> Tiktoken GPT2
+        - Batch Size -> 32
+        - Block Size -> 256
+        - Embedding weights are tied
+
+        - Total parameters: 30,160,896
+        - Trainable parameters: 30,160,896
+
+
+
+
+    2. Research questions
+        - How can a small decoder only Transformer learn to generate coherent stories
+        from a limited training token budget.
+
+            - Secondary questions:
+                1. How does the validation loss evolve as training tokens increase
+                2. At what point do dmininshing returns become noticble
+                3. Does the model begin to overfit to tiny stories
+                4. How does the model size affect the quality of text
+
+
+
+
+    3. What i'm measuring
+        - Learning : Training Loss, Validation loss
+        - Model : 30,160,896
+        - Generation : Coherence, repetition, story consistency
+        - Effiecny : 1h 7m
+
+

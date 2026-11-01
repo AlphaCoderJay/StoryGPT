@@ -1,0 +1,465 @@
+- Experiment 001 (E001)
+    - I will be using a GPT model to grade this models generations on multiple aspects on a Scale of 0.1
+    - I will have multiple prompts I will use and the models response my prompt / the continuation of my prompt will be graded
+    - I tried my best to make the LLM Judge(GPT) fair as i can. This isn't a held out task like math or code so evaluating on a bench mark will be tricky
+
+    - The generation quality will be judged on these 6 metric of varied significance:
+        - Narrative coherence
+        - Character consistency
+        - Semantic consistency
+        - Grammar and fluency
+        - Story progression
+        - Prompt adherence
+
+    
+    - The range of prompts will look like:
+        1. "Once upon a time, there was a little boy named Max."
+        2. "Deep inside a forest, there was a small village."
+        3. "One morning, Lucy woke up and discovered something stange."
+        4. "Tim found a mysterious box under his bed."
+        5. "Where did my puppy go?" Sarah asked.
+        6. "It was a beautiful sunny day when something unexpected happened."
+        7. "A little rabbit wanted to find a new home."
+        8. "Amy had always dreamed of becoming a great artist."
+
+
+    - Generations will be sampled with a:
+        - Specified Token size (100 - 500)
+        - Temprature -> 0.7
+        - Top K -> 40
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prompt 1:   
+    - Prompt 1: 0.46
+        - Token Size 100:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Once upon a time, there was a little boy named Max."
+
+            - Results:
+                Once upon a time, there was a little boy named Max. Max was very generous. He did not care to the other kids. Tom liked to sit and play with his toys.
+                One day, Tom saw a big dog. The dog was not very good at all. Tom liked his new friend and asked, "Can I have your ball?" The dog said, "Yes, you can play with me."
+                Tom and the dog played together. They pretended to be nice and share each other. They had so much fun together. The moral of the
+
+    - Prompt 1: 0.42
+        - Token Size 200:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Once upon a time, there was a little boy named Max."  
+
+            - Results:
+                Once upon a time, there was a little boy named Max. Max loved to play on the grass. One day, he found a big, red rock. He wanted to see what was inside.
+                Max said, "I can't open it. Can you help me?" The tree said, "Yes, I can help you find a way to rest." Max was very happy. He jumped high in the sky and higher.
+                But Max was not there. He started to feel frustrated. He tried to jump, but he could not jump. He tried to catch, but he could not. The big wind was too high. Tom was sad.
+                Then, a little girl named Lily saw Max in the park. She asked, "Why are you sad, Max?" Tom said, "I lost my friend. I can't find my home." Lily tried to help Max, but it was too late. The big, scary, and the big, red ball could not move anymore. The big, red ball was not just a ball, and  
+
+         
+    - Prompt 1: 0.30
+        - Token Size 300:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Once upon a time, there was a little boy named Max." 
+
+            - Results:
+                Once upon a time, there was a little boy named Max. Tom lived in a small house with his mom and dad. Tom was a very happy dog. He liked to play outside with his friends. One day, Tom found a big box of a lock. He was very excited to see what was inside.
+                Tom called his friends if they could find out the box. They all worked together to get the big box. Tom was very happy. But then, something unexpected happened. The box started to grow bigger and bigger! Tom and his friends were surprised. They didn't know what to do. They all had to go home and play with the box.
+
+                Once upon a time, there was a little girl named Lily. She loved to play in the park. One day, she found a big, red ball in a park. She was very happy. She thought it was a fun game to play with.
+                Lily took the ball with her ball. She took it to her friend, Tim. Sue was surprised. She wanted to play with it. She took the ball and tried to throw it under it. But it was too high and needed to climb.
+                Sue was very sad. She ran to her mom and said, "Mom,.. Tim it could could! The ball! It hoop... Tim said to the a She. The umbrella sheMom hardummy. Tom was to to the to to. They a it.. The empty his. Her They him could't to. She. It
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prompt 2: 0.47
+    - Prompt 2:
+        - Token Size 100:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Deep inside a forest, there was a small village."
+
+            - Results:
+                Deep inside a forest, there was a small village. The tree had a red, red balloon. The little girl liked to play with the rock.
+                One day, the little girl wanted to go to the top of the hill. She saw a little girl. The girl was sad. She wanted to help her find her way home. So, she asked her mom if she could reach her way back. Her mom said yes, and they went to the slide.
+                At the park, Lily saw her friend Tom. Tom was playing with the big
+
+    - Prompt 2: 0.59
+        - Token Size 200:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Deep inside a forest, there was a small village."
+
+            - Results:
+                Deep inside a forest, there was a small village. The factory was very pretty and had many pretty things on it. The people were happy to be in the town. The people in the town wanted to feed the animals.
+                The animals saw the people in the town. They were all very happy. They wanted to see how big they wanted. So, they all went to the mall to find food to eat. The people were happy and wanted to have a big cake.
+                As they were in the party, they saw a big dog. The dog was lost and tired. The animals wanted to help the dog. So, they all went to the party to play with the dog. The dog said, "You will all be careful and be friends." The dog and the kids were happy and thanked the dog. They all went home, and they played together in the park.
+
+                Sam and Lily were twins who liked to play games. They had a big bag of blocks, but they did not want to share. They thought of a
+
+    - Prompt 2: 0.47
+        - Token Size 300:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Deep inside a forest, there was a small village."
+
+            - Results:
+                Deep inside a forest, there was a small village. Inside the farm, there were two fish, and a small crab. They all liked to play together.
+                One day, the frog and the frog were playing in the forest. They found a toy box and used it to the duck. The frog said, "Let's play!" They played with the toy car and the bunny. They had lots of fun.
+                The squirrel said, "Let's play more games on the rock." The frog agreed, and they played all day. They had so much fun. But then, something unexpected happened. A big wind came and blew the toy car away! The frog and the squirrel were sad.
+                Then, something unexpected happened. The bear was not a bird anymore. The kitten and the squirrel played with the toy car all day. They had more fun and played with the toy car. The bear learned that it is not good to tease others.
+
+                Once upon a time, in a big forest, there lived a little girl named Lily. Lily had a soft bracelet with many colors. She loved to share it every day. One day, she went to her mom and said, "Mom, I have a special dress for you!"
+                Her mom said, "No at her Lily said Lily they she was very happy. to share to wash Lily at her. So. The idea.
+                was amazing and was a a not a for a. the very a big brother, much heraffles. The the magic. It very special
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Prompt 3:
+    - Prompt 3: 0.42
+        - Token Size 100:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "One morning, Lucy woke up and discovered something stange."
+
+            - Results:
+                One morning, Lucy woke up and discovered something stange. She was so surprised!
+                She decided to show her mom the truth and her mom. They worked hard to the music. Lucy was very happy, she thanked her mom and said, "I'm glad you could make a new friend too."
+
+                Once upon a time, a little boy named Tim went to the park. He saw a big tree with a hole. Tim did not know what the sound was, but he wanted to see. So, he asked his mom, "Can I
+
+    - Prompt 3: 0.66
+        - Token Size 200:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "One morning, Lucy woke up and discovered something stange."
+
+            - Results:
+                One morning, Lucy woke up and discovered something stange. She asked her mom, "What is this?"
+                Her mom said, "I found it in the kitchen. It is cold and pretty." Lucy looked at the avocado and said, "I found it in the kitchen."
+                Lucy put the bottle in the bag and went to her mom. Her mom read the jar and it went in the kitchen. Lucy was happy to see the picture. She said, "Mom, that is a special book!"
+                Her mom smiled and said, "Good job, Lucy. You are very sweet. You are a good friend." Lucy was very happy. She went to the kitchen and found some pretty things. It was a beautiful, fun day for Lucy and her mom.
+
+                Once upon a time, there was a little girl named Lily. She loved to read pretty pictures. One day, she found a big, red rock. The rock had a big hole of a pretty fruit. Lily was very happy to see it.
+                Lily
+
+    - Prompt 3: 0.45
+        - Token Size 300:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "One morning, Lucy woke up and discovered something stange."
+
+            - Results:
+                One morning, Lucy woke up and discovered something stange. It was a little bird hiding in the sky. Lucy wanted to help the bird, so she asked her, "Can you help me? I found a shiny, pretty flower that could be big."
+                Mia looked at the bug and said, "Yes, I can help you. It can help you find your nest." The bug flew away and made a big, shiny bug. Lucy was so happy and said, "Thank you, bug!"
+                From that day on, Lucy and the bug became best friends. They played together every day.
+
+                Once upon a time, there was a little girl named Mia. Mia loved to play outside. One day, she found a big box with lots of toys. She thought it would be fun to draw her toys, but it was not a toy.
+                Mia picked up her toys and went to the kitchen. She saw a big, green ball. Mia wanted to play with the ball, so she started to climb it. She looked and looked but could not find it. Mia tried to resist and tried to catch it, but it was too hard.
+                Then, a little bird flew down from the room. The bird flew into the chair and picked the to it. The and could the ball. Mia help... the mom back played with The Mia's!" The to be old, and food to to the to and. the Lily it.. The scared heragged. The the toys, and sad.'s
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Prompt 4:
+
+    - Prompt 4: 0.71
+        - Token Size 100:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Tim found a mysterious box under his bed."
+
+            - Results:
+                Tim found a mysterious box under his bed. He thought, "I can use it on the wall!" So, he put the box on the chair and went to the house. He saw a big room and made a big room. Tim opened the box and found a small house. The box was open. Tim opened the box and found a secret, a cat. The cat was lost of the box.
+                "Hey, cat! This box is so big and fun!" Tim said. The cat took the box and was very happy. 
+
+    
+    - Prompt 4: 0.54
+        - Token Size 200:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Tim found a mysterious box under his bed."
+
+            - Results:
+                Tim found a mysterious box under his bed. He thought, "Maybe I can find something to eat the box!" So, Tim and his mom went to the box to buy some food.
+                At the store, Tim saw a big box with lots of yummy juice. He was so happy! Tim's mom said, "Thank you, Tim, for making a cake, Tim." Tim felt proud and said, "Thank you, Mom!" They both sat down and ate the cake together.
+
+                Once upon a time, there was a little girl named Lily. She had a big, red house full of toys. One day, Lily's mom told her to be careful when she wanted to play with the toys.
+                Lily went to the kitchen and opened the box. Inside, she found the toys box under the floor. She was very happy. She played with it all day. She ate the toys with her toys.
+                But then, something unexpected happened. The toys started to move! It started to grow bigger and   
+
+    - Prompt 4: 0.49
+        - Token Size 300:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Tim found a mysterious box under his bed."
+
+            - Results:
+                Tim found a mysterious box under his bed. He picked up the box and started to climb it.
+                "Mom, can I have the box?" Tim asked.
+                "No, we can't. Maybe we can find it first," Sam said.
+                "Sure, you can," Tim and Sam said.
+                They started to argue. They made the box go down and down. They felt sorry for the cake.
+                They did not think what to do. They had to go home. They felt better.
+                The end.
+
+                Once upon a time, there was a little girl named Sue. She liked to play in the park. Sue would roll her ball and chase it. One day, Sue found a big, soft ball. She wanted to play with it, but she didn't know how.
+                Sue went to her mom and said, "Mom, can you lend the ball now?" Her mom replied, "Yes, but be careful." She put the ball down her waist and went to play with her ball.
+                As Sue played, she saw a big, red ball. The ball was not a ball, the ball. It was a big ball. Lily was very surprised. She did not know that the ball was just a ball to coming. The a it.
+                she felt bad.... to the ball to Mr with
+                .
+                The. The ball away. she, the. The to the. the toy. wanted to Spot bad on to. She it did't help
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Prompt 5:
+
+    - Prompt 5: 0.25
+        - Token Size 100:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Where did my puppy go?" Sarah asked"
+
+            - Results:
+                'Where did my puppy go?' Sarah asked.
+                The next day, John and Betty. Tommy said "Let's go to the park. The slide was very fast. Let's go on a trip and have fun".
+                John and Joe were excited. They had to wait and take turns. They went to the hill and found a big box. They picked up the box and pushed it.
+                "Let's go to the park!" said Jack.
+                "OK!" said Sam.
+                They went to the park and saw a big
+
+    - Prompt 5: 0.20
+        - Token Size 200:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Where did my puppy go?" Sarah asked"
+
+            - Results:
+                'Where did my puppy go?' Sarah asked her mother, "Can I have a band, please?"
+                The bear smiled and said, "Yes, it's just the best."
+                So the mouse used her to the doctor and gave her the baraffe. The princess used the tber to the mouse's hand and gave it a hug.
+                The lady was so happy and said, "Thank you, I love your sweet mebra!"
+                The puppy smiled and said, "That's good, I'm so glad you're welcome. We're glad I could help you and take care of your mittens. It's very sweet, and that it's better to always enjoy your things.
+
+                Once upon a time, there was a little girl named Sue. Sue was an adventurous girl who liked to play with her toys. One day, Sue saw a big red ball in her room. She wanted to play with it, so she called her mom.
+                Her mom said, "Tim, can you put the ball away
+
+    - Prompt 5: 0.25
+        - Token Size 300:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Where did my puppy go?" Sarah asked"
+
+            - Results:
+                'Where did my puppy go?' Sarah asked. 
+                The man smiled and said, "Well, it's okay to have fun!" 
+                The woman smiled and said, "It's ok, the girl. I promise. You can be a little girl." 
+                The man smiled and said, "Yes! I can do it!"
+                The man and the woman walked out to play. They had a lot of fun playing with the wild and the woman was very happy. 
+                The woman was so happy he wanted to show his mother a story.
+
+                Once upon a time, there was a little boy named Tim. Tim had a big, warm car. The car was full of toys. Tim loved to play with the car.
+                One day, Tim found a big box. He thought it would be fun to play with it. Tim picked it up and took it to his mom. "Mom, look! A big, shiny apple is mine!" Tim said. His mom smiled and said, "That is a very special rock. You have to stay with it."
+                Tim was sad that he had a big surprise. His mom said, "Don't worry, Tim. We will help you." The next day, Tim and his mom went at playing together together
+
+                They to mom said together was. to be do. to their playing They. They. They
+                could to fix. They a did Sam to to. They his it home. They happy together to time. They would't find
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Prompt 6:
+
+    - Prompt 6: 0.76
+        - Token Size 100:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "It was a beautiful sunny day when something unexpected happened."
+
+            - Results:
+                It was a beautiful sunny day when something unexpected happened. A little bird flew through the forest and said, "I found a new shell. Do you want to play with me?" The little bird replied, "Yes, I would love to play with you, bird."
+                The little bird and the little bird played chess and seek. They had lots of fun. The little bird became good friends. The big bird said, "Thank you for playing with me." They all had a great time.
+                From that day on, the little bird and the 
+
+    
+    - Prompt 6: 0.63
+        - Token Size 200:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "It was a beautiful sunny day when something unexpected happened."
+
+            - Results:
+                It was a beautiful sunny day when something unexpected happened. The old bunny was really surprised.
+                The pink owl ran to the big tree. "Hi, pink bunny! Can I have a snack?" he said. The bear said, "Yes, you can have the best gift."
+                The blue owl was happy. "Thank you, big bird! You are a very good friend!"
+                The green bunny smiled. "Thank you, little bird," said the blue bunny. "You're welcome."
+                The pink owl and the green owl became good friends. They played together every day.
+
+                Once upon a time, there was a little girl named Lily. She loved to play in her room. One day, she saw a big, rough cake in her backyard. The book was red and had a big mouth. Lily thought it would be fun to put the box on the stove.
+                Lily's friend, Tom, came over to play. Sue saw the jar and said, "Wow, Tom! You are so pretty!" Tom
+
+    - Prompt 6: 0.48
+        - Token Size 300:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "It was a beautiful sunny day when something unexpected happened."
+
+            - Results:
+                It was a beautiful sunny day when something unexpected happened. As it started to shake, it suddenly made the little girl.
+                The little girl was so excited to see the world. She ran to the ground and saw the birds. She asked her mom if she could go on a journey and be patient. Her mom said yes and they went to the sky.
+                The little girl was happy to see the flowers. She wanted to go on an adventure. She asked her mom if she could go outside and get on her bed. Her mom said yes, but she wanted to explore her room.
+                They walked home, and went home. When they arrived, they saw something shiny. They were very happy to see what it was. It was a special day for her mom.
+
+                Once upon a time, there was a little boy named Tim. Tim had a toy box. It was a box of a big box. Tim loved his truck very much. It was the best place ever.
+                One day, Tim went to the garden with his mom. His mom said, "Tim, you need to ride your bike. It is very nice and fun." Tim did not want to give his mom to clean his toys. He played with his toys all day long.
+                In very the his could would day, he was very perfect at the other other his other cars in He. He did HeBut he't fun. He to not there home. the other of. would happy. the other nice. Tim. But So. his lot
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Prompt 7:
+
+    - Prompt 7: 0.44
+        - Token Size 100:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "A little rabbit wanted to find a new home."
+
+            - Results:
+                A little rabbit wanted to find a new home. The bunny was very excited to find something to find.
+                After a few days of the forest, the rabbit started to feel better. He saw a big bush and asked the rabbit, "Can you help me get a big rock, please?" The rabbit smiled and said, "Sure, I can help you."
+                The rabbit picked up the vine and put it into a big tree. The rabbit was happy and thanked the bird. The squirrel and the squirrel became good friends. They played together every
+
+     - Prompt 7: 0.44
+        - Token Size 200:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "A little rabbit wanted to find a new home."
+
+            - Results:
+                A little rabbit wanted to find a new home. He wanted to help his friend, a big blue bird. The bird said, "If I give you a story, please."
+                The wise owl and the bird went to the store. They put on his soft coat. The bird was very happy to learn. But then, something unexpected happened. The bird flew out and started to talk! The bird took the bird to its home. The bird was very surprised.
+                The bird and the bird became good friends. They played together every day. The bird was not lonely anymore. It was a happy place for the cat. And they all lived happily ever after.
+
+                One day, a little boy named Tim went to the park with his mom. They saw a big tree and wanted to climb it. Tim asked his mom, "Can we ride it?"
+                Mom said, "Yes, Tim, you can not. The tree is too big for you." Tim was sad and wanted to help his mom. He thought, "I
+
+    - Prompt 7: 0.36
+        - Token Size 300:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "A little rabbit wanted to find a new home."
+
+            - Results:
+                A little rabbit wanted to find a new home. The squirrel thought, "I can help you find the pretty ball and play with the ball."
+                The little fox thought about it and decided to be a good friend. He decided to try and jump and have fun. The rabbit was very happy and thanked the rabbit.
+                But then, something unexpected happened. The big bear found a big rock. The rabbit was not a good friend anymore. The frog thought the magic house would make it go away. The big bear and the small frog became best friends.
+
+                One day, a boy named Tim and his little boy called Sam to play outside. They saw a big tree with a pretty rope. Tim said, "Let's open the hole and see what is inside!" Sam agreed and they started to climb the tree.
+                As they got closer the rock, Tim and his mom opened the tree. Tim was very excited. He said, "I found the key and opened it!" His mom smiled and said, "Be careful, Tim! We can find the treasure together!" They both enjoyed the key and played all day.
+
+                Once upon a time, there was a little boy named Tim. Tim loved to play outside with his friends. One day, he found a idea, his found It was to friend. Itummy. he and a new playing could to He. Tim had His funummy. he was a needed him outside with his other of the game. They quiet his amazing was not to play. They scared
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Prompt 8:
+
+
+    - Prompt 8: 0.20
+        - Token Size 100:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Amy had always dreamed of becoming a great artist."
+
+            - Results:
+                Amy had always dreamed of becoming a great artist.
+
+                Once upon a time, there was a big tree with a big tree. The tree had a big fence. The tree had a house with many fun things. Every day, the tree would go to the park to play.
+                One day, a little girl named Lily went to the tree. She saw the tree and thought it was very fun. Lily liked the tree and wanted to play with it. So, she put on her red ball. The tree was not nice anymore.
+
+    - Prompt 8: 0.23
+        - Token Size 200:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Amy had always dreamed of becoming a great artist."
+
+            - Results:
+                Amy had always dreamed of becoming a great artist.
+                The end.
+
+                One day, a big boy named Tim went to the park. He saw a big tree with a sign on it. Tim wanted to see what was behind the tree.
+                Tim saw a big tree with a cat. He said, "Don't climb the tree, tree. The tree has a sign." The cat said, "Thank you, Tim! You are a good friend."
+                Tim went home and put the stick in his pocket. He showed it to the tree. The tree was soft. Tim was happy to play with it. He said, "Thank you, dog! You are a good friend."
+
+                Once upon a time, there was a girl named Lily. She loved to play outside with her friends. One day, they found a big, red ball in the park. Lily thought it was fun to play with the ball.
+                Lily and her friends were scared. They wanted to get the ball back. They had to share
+
+    - Prompt 8: 0.31
+        - Token Size 300:
+        - Temprature -> 0.7
+        - Top K -> 40
+        - Prompt -> "Amy had always dreamed of becoming a great artist."
+
+            - Results:
+                Amy had always dreamed of becoming a great artist.
+
+                Once upon a time, a cute cat named Tom lived in a big house. He liked to sing and play with his friends. One day, Tom saw a big, red ball near the house. He wanted to play with it, but he was scared.
+                Tom asked his friend, a little bird named Tim, "What is in the box?" Tim said, "I don't know, but I can't find it." Tom wanted to help, so he said, "I will help you find my ball." They looked under the bed, behind the bed, and in the box.
+                Tom found a big tree and put it in the box. He used the ball to the other side of the park. The ball rolled on the ground and it was very happy. His friends were not embarrassed anymore. They played together and had a happy day.
+
+                One day, a little boy named Tim found a big, red ball on the floor. He had a fun time playing with it. He put it up and started to play with it. Tim's friend, Sam, saw the ball and said, "Look, Sue! I found that toy toy!"
+                Tim was sad of the dog. He said, but it was said, Tim said to play... too nice said. They playing They. But the.
+                found his owner he. the. Tim... his of the ball. Tim. Tim's day. Tim, But Tim sad
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Aggregate results:
+
+    1. Average genearation score by token limit:
+        100 tokens -> 0.51
+        200 tokens -> 0.54
+        300 tokens -> 0.43
+
+        - This suggests that the model has difficulty sustaining coherent text over Longer
+
+    
+    2. Peformance by prompt:
+        - Prompt 1 Max -> 0.39
+        - Prompt 2 Forest village -> 0.51
+        - Prompt 3 Lucy discovers something -> 0.51
+        - Prompt 4 mysterious box -> 0.58
+        - Prompt 5 Missing puppy -> 0.24
+        - Prompt 6 Sunny day -> 0.63
+        - Prompt 7 Rabbit Finding a home -> 0.41
+        - Prompt 8 -> Aspiriing artist -> 0.24
+
+        - Prompt 6 is the strongest prompt
+        - Prompt 5 and Prompt 8 are the weakest
+
+    
+    - What this says about the E001 Model:
+        - It handles some straightforward scenarios involving animals, frendiship and simple interactions
+        - It stuglles when the continuation need to maintain a particular objective or follow a specific Narrative premise
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# GPT Detailed Critisim:
+    - The model has three main weaknesses
+
+    1. Charcter identity is very unstable:
+        Examples:
+            - Max becomes Tom in P1
+            - Lucy becomes Mia in P3
+            - The characters change without any explaination
+
+    2. Semantic relationships are weak:
+        - The tree said, "yes, I can help you find a way to rest"
+        - Tim wanted to play with the ball, so he tried to kick it up
+        - The bird flew into the chari and picked the to it
+
+        - The model has learned how workds and phrases commonly appear together, but it fails to produce any logically meaninful relationships between them
+
+    3. It stuglles to maintain the original premise:
+       - P5 Your prompt:
+            "Where did my puppy go?" Sarah asked.
+
+            The model should naturally develop a missing-puppy story.
+
+            Instead, it introduces John, Betty, Tommy, a park, a slide, a hill and a box.
+
+            It barely addresses the puppy.
+
+            P8 has the same issue. Amy wants to become an artist, but the model starts generating unrelated stories about trees and children.
+
+            These aren't just minor narrative imperfections. The model is failing to follow the premise it was given.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

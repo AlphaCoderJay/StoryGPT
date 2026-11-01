@@ -1,0 +1,14 @@
+Offical E001 evaluation record
+    - 0.44 / 1.00
+
+-Strengths
+    - Recognisable children's-story structure.
+    - Reasonable sentence fluency.
+    - Some successful short narrative sequences.
+    - Occasional coherent character interactions.
+- Weaknesses
+    - Unstable character identities.
+    - Poor semantic relationships.
+    - Weak adherence to narrative premises.
+    - Repetition and degeneration.
+    - Reduced coherence in longer generations.
