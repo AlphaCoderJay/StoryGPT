@@ -1,0 +1,36 @@
+# E004 Generation evaluation
+    - 0.57 / 1.00
+
+- The E004 is 0.07 lower than the E003
+    -  These are subjective LLM-Judge estimates, not objective benchmark scores
+
+
+
+Generation length	E004	E003
+100 tokens	        0.61	0.64
+200 tokens	        0.53    0.67
+300 tokens	        0.58	0.60 
+
+
+- The interesting thing here is that E004 doesn't show a consisent improvement as generation length increases
+
+
+Criterion	                        E004
+Narrative coherence	                0.48
+Character consistency	            0.64
+Semantic consistency	            0.52
+Grammar and fluency	                0.81
+Story progression	                0.40
+Prompt adherence	                0.67
+
+- The largest weakness reamins narrative coherence and story progression
+
+- Grammar and fluency are better.
+- The model can generally produce readable sentences, but it struggles to make those sentences work together as a story.
+
+
+- However these evaluations doesn't really test 2048 context
+- The longest generations are only 300 tokens
+
+- With the E003's 256 context window, the model would begin losing access to the earliest part of the sequence after 256 tokens
+- So most of the current evaluation never really tests the advantage of a 2048-token window

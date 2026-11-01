@@ -1,0 +1,48 @@
+Experiment 004 -- 8x Longer Context Length
+
+    Research Question:
+        - Does increasing the context length increase the generation quality?
+    
+    1. Basline Configurations
+        - Architecture -> Decoder only Transformer
+        - Datset -> Tiny Stories
+        - Training Tokens -> 300M
+        - Embedding Dimesnion -> 384
+        - Layers -> 6
+        - Heads -> 6
+        - Context Length -> 2048
+        - Dropout Rate -> 0.05
+        - Vocabulary -> 50304
+        - Peak Lr -> 3e-4
+        - Lr scheduler -> Warmup + cosine decay
+        - No gradient clipping
+
+        - Tokenizer -> Tiktoken GPT2
+        - Micro Batch Size -> 1
+        - Block Size -> 2048
+        - Total batch size -> 65536
+        - Gradient accumulation -> 32
+        - Embedding weights are tied
+
+        - Total parameters: 30,750,720
+        - Trainable parameters: 30,750,720
+
+    2. Training Results:
+        - Training Steps: 36,622
+        - Estimated Tokens proccessed : 300M/300M
+        - Final Training Loss : 1.4051
+        - Final Validation Loss : 1.4152
+        - Training Time : 13h + (Estimated)
+    
+    3. Comparison with Experiment 003:
+        - Validation loss improved by 0.176
+        - Training loss improved by 0.1745
+        - No visible evidence of overfitting
+        - Training remained similar
+        - Training Loss reduced over time
+
+
+    4. Architectural changes from E003
+        - We decided to implement gradient accumulations so that the model could have a larger context Length
+        - We want a larger context length to combat the issues faced in E003 with the model losing the earlier context
+        - E003 Context length -> 256, E004 Context Length -> 2048
