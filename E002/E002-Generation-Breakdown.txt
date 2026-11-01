@@ -1,0 +1,100 @@
+# Offical Experiment Record
+    - E002 - 0.36 / 1.00
+
+
+
+# Aggreage Results
+    - 100 tokens -> 0.355
+    - 200 tokens -> 0.352
+    - 300 tokens -> 0.358
+
+- An interseting finding: generation length has no measurable relationship with the scores in this batch
+- This is something that is different from E001
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Performance by reasearch criterion
+
+    - Narrative coherence -> 0.32
+    - Character consistency -> 0.31
+    - Semantic consistency -> 0.30
+    - Grammar and fluency -> 0.56
+    - Story progression -> 0.31
+    - Prompt adhearance -> 0.44
+
+- The model can reasonably produce readable sentences, but struggles to make those sentences work together
+- That is the main problem
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 4. Comparing E001 and E002
+    This is probably the most important part of the evaluation.
+    Metric	E001	E002
+    Overall generation score	0.44	0.36
+    Model parameters	30,160,896	30,062,592
+    Training tokens	~81.92M	~81.92M
+    Context configuration	512 / 256 mismatch	256 / 256
+    Samples judged	Smaller batch	72
+
+    - However E001 and E002 weren't evaluated on the same sample struggles
+    - I did more evaluation on E002 trying to elimatee the randomness in the answers so i sampled more at each prompt
+
+    - However the block size has not demonstrated an improvment in generation quality
+
+    - It isn't surprising. It is the same model in fact it learns less as i removed the addition 256 block size
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# The biggest failuries in E002
+
+    P5 — Missing puppy
+    Major failure
+    Your prompt:
+    "Where did my puppy go?" Sarah asked.
+
+    Across all nine generations, the model repeatedly fails to develop a missing-puppy narrative.
+
+    It generates unrelated characters, presents, clothing, gardens, dolls and other scenarios.
+
+    This is concerning because the model isn't being asked to solve a complicated problem. It just needs to maintain a simple narrative premise.
+
+    The repeated failure across nine samples makes this more meaningful than a single unlucky generation.
+
+
+    P8 — Aspiring artist
+    Major failure
+    Your prompt:
+    Amy had always dreamed of becoming a great artist.
+
+    Most of the generations completely abandon the premise.
+
+    The model starts talking about:
+    - Boys playing in mud.
+    - Trees and balls.
+    - Cakes and snacks.
+    - Random children and animals.
+    It doesn't meaningfully develop Amy's artistic ambition.
+
+    This is another case where the model isn't maintaining the initial narrative objective.
+
+
+    P4 — Mysterious box
+    Relatively strongest prompt
+    This prompt performs better than the others.
+
+    For example:
+    Tim found a mysterious box under his bed. He asked his mom, "Can I open it?" His mom said, "Yes, but be careful."
+
+    Then the box opens and produces a bird and a ball.
+
+    It's not a particularly sophisticated story, but there is an identifiable sequence:
+    1. Tim finds something.
+    2. He asks permission.
+    3. He opens it.
+    4. Something unexpected appears.
+    5. He reacts.
+    The underlying story structure is much more recognisable here.
+
+    This is the sort of behaviour I'd like to see more consistently
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
