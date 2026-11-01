@@ -2,7 +2,7 @@ import torch
 import tiktoken
 
 from GPT import GPT2
-from configs import GPTConfig
+from config import GPTConfig
 
 model_path = "E004/E004-latest_checkpoint.pt"
 checkpoint = torch.load(model_path,map_location="cpu")
